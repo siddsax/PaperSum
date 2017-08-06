@@ -35,9 +35,7 @@ they propose an image classifier called MSD-Net that gives good accuracies when 
 * Minor Points on Architecture:
   * First layer consists of lateral connections within the block.
   * Featues at scale 's' are made up of concatenation of features of previous layers made at scale 's' and 's-1'
-    
-  
-
+  * Each classifier has a parameter 'q' as output that represents its confidence. This can then be used for budgeted classification.
 
 
 [1] Adaptive Neural Networks for Efficient Inference ([link](https://arxiv.org/pdf/1702.07811.pdf))
