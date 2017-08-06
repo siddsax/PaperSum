@@ -8,6 +8,6 @@ List of papers
 
 2017
 *  **CyCADA: Cycle-Consistent Adversarial Domain Adaptation** [[paper](http://proceedings.mlr.press/v80/hoffman18a/hoffman18a.pdf)] [[summary]()]
-   * Judy Hoffman Eric Tzeng Taesung Park Jun-Yan Zhu Phillip Isola Kate Saenko Alexei A. Efros Trevor Darrell | JMLR 2018
+   * Judy Hoffman, Eric Tzeng, Taesung Park, Jun-Yan Zhu, Phillip Isola, K Saenko, A Efros, T Darrell | JMLR 2018
 
 
