@@ -1,4 +1,4 @@
-#Multi-Scale Dense Network for Resource Efficient Image Classification
+# Multi-Scale Dense Network for Resource Efficient Image Classification
 ## Paper Details
 * Authors: Gao Huang, Danlu Chen, Tianhong Li, Felix Wu, Laurens van der Maaten, Kilian Q. Weinberger
 * Link: [Arxiv](https://arxiv.org/pdf/1703.09844.pdf)
