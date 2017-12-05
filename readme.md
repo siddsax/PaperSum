@@ -1,6 +1,6 @@
 # Paper summay blog
 
-Welcome to my paper summary blog! These are some of the papers that I found really interesting and not a summary around.
+Welcome to my paper summary blog! These are some of the papers that I found really interesting and not a summary around. If you find any issue with points that I made, feel free to reach out to me or send a pull request.
 
 2017
 * **Multi-Scale Dense Networks for Resource Efficient Image Classification** [[paper](https://arxiv.org/abs/1703.09844)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/MSDNet.md)]
