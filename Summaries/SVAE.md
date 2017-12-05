@@ -14,6 +14,7 @@
     *  VAE + Linear Dynamic System: Here by making the output at time step n, depend on output at time step n-1. It can encode time dependence in the outputs that is important to model videos.
     * VAE + Switching LDS: Going a step further. Latent LDS can be combined with GMM to create a model that has another latent discrete layer. Hence making ot possible for the model to evolve over time.
 
-But all these model are tough to do inference upon. This is the problem that the authors address in this paper with a new class of AEVB inference methods.
-
-  
+* The problem that the authors address is that, it is possible to levelrage the flexibility of neural networks with PGMs by outputting PGM potentials instead of defining the whole variational distribution ( like the mean and variance in vanilla VAE) using a recognition network ( i.e. the encoder in VAE ).
+* They derive this fact by writing down the variational ower bound for a VAE in Eq 3 and then parametrise the potential with a recognition network in the next step ( end of page 5). 
+* Then they introduce the SVAE lower bound and state that it lower bounds the above objective, proved in appendix (  stated in proposition 4.1 )
+* The authors note that L_{SVAE} is similar to the VAE lower bound, hence it can be maximized similar to a VAE in order to get the estimate of its parameters.     
