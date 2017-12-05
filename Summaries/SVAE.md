@@ -1,7 +1,7 @@
 # Composing graphical models with neural networks for structured representations and fast inference
 
 ## Paper Details
-* Authors
+* Authors MJ Johnson, David Duvenaud, A Wiltschko, Sandeep Datta, Ryan P. Adams
 * Link: [Arxiv](https://arxiv.org/pdf/1603.06277.pdf)
 * Tags: Graphical Models, VAE, probailistic models
 * Year: 2016
