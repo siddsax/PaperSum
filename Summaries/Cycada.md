@@ -1,7 +1,7 @@
 # CyCADA: Cycle-Consistent Adversarial Domain Adaptation
 ## Paper Details
 
-* Authors:
+* Authors: Judy Hoffman, Eric Tzeng, Taesung Park, Jun-Yan Zhu, Phillip Isola, K Saenko, A Efros, T Darrell
 * Link: [Arxiv](http://proceedings.mlr.press/v80/hoffman18a/hoffman18a.pdf)
 * Tags: Domain Adaptation, Unsupervised Learning
 * Year: 2017
