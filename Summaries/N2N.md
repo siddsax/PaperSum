@@ -4,7 +4,7 @@
 
 * Authors: Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila
 * Link: [Arxiv](https://arxiv.org/pdf/1801.07829.pdf)
-* Tags: Point Cloud, Graph CNN
+* Tags: Image DeNoise, GANs
 * Year: 2018
 * Conference ICML 2018
 * Implementation: [Official in tensorflow](https://github.com/NVlabs/noise2noise)
