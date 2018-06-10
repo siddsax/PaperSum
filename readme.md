@@ -3,10 +3,10 @@
 Welcome to my paper summary blog! These are some of the papers that I found really interesting and not a summary around. If you find any issue with points that I made, feel free to reach out to me or send a pull request.
 
 2018
-* **Dynamic Graph CNN for Learning on Point Clouds** [[paper](https://arxiv.org/abs/1801.07829)][[summary](https://arxiv.org/abs/1801.07829)]
+* **Dynamic Graph CNN for Learning on Point Clouds** [[paper](https://arxiv.org/abs/1801.07829)][[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/dgcnn.md)]
    * Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, Justin M. Solomon | Arxiv 2018
 
-* **Noise2Noise: Learning Image Restoration without Clean Data** [[paper]()] [[summary](https://arxiv.org/pdf/1803.04189.pdf)]
+* **Noise2Noise: Learning Image Restoration without Clean Data** [[paper](https://arxiv.org/pdf/1803.04189.pdf)] [[summary](https://github.com/siddsax/PaperSum/edit/master/Summaries/N2N.md)]
    * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | Arxiv 2018
 
 
