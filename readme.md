@@ -2,6 +2,14 @@
 
 Welcome to my paper summary blog! These are some of the papers that I found really interesting and not a summary around. If you find any issue with points that I made, feel free to reach out to me or send a pull request.
 
+2018
+* **Dynamic Graph CNN for Learning on Point Clouds** [[paper](https://arxiv.org/abs/1801.07829)][[summary](https://arxiv.org/abs/1801.07829)]
+   * Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, Justin M. Solomon | Arxiv 2018
+
+* **Noise2Noise: Learning Image Restoration without Clean Data** [[paper]()] [[summary](https://arxiv.org/pdf/1803.04189.pdf)]
+   * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | Arxiv 2018
+
+
 2017
 * **Multi-Scale Dense Networks for Resource Efficient Image Classification** [[paper](https://arxiv.org/abs/1703.09844)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/MSDNet.md)]
   * Gao Huang, Danlu Chen, Tianhong Li, Felix Wu, Laurens van der Maaten, Kilian Q. Weinberger | ICLR 2018
