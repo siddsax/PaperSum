@@ -4,7 +4,7 @@
 
 * Authors: Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila
 * Link: [Arxiv](https://arxiv.org/pdf/1801.07829.pdf)
-* Tags: Image DeNoise, GANs
+* Tags: Image DeNoising, Learning with less clean data
 * Year: 2018
 * Conference ICML 2018
 * Implementation: [Official in tensorflow](https://github.com/NVlabs/noise2noise), [Port in PyTorch](https://github.com/joeylitalien/noise2noise-pytorch)
