@@ -7,7 +7,7 @@
 * Tags: Image DeNoise, GANs
 * Year: 2018
 * Conference ICML 2018
-* Implementation: [Official in tensorflow](https://github.com/NVlabs/noise2noise)
+* Implementation: [Official in tensorflow](https://github.com/NVlabs/noise2noise), [Port in PyTorch](https://github.com/joeylitalien/noise2noise-pytorch)
 
 ## Summary
 
