@@ -24,4 +24,4 @@ for structured representations and fast inference** [[paper](https://arxiv.org/p
 
 2015
 * **Structural-RNN: Deep Learning on Spatio-Temporal Graphs** [[paper](https://cs.stanford.edu/people/asaxena/papers/structural-rnn-cvpr16-jain-saxena.pdf)][[summary](https://github.com/siddsax/PaperSum/new/master/Summaries/srnn.md)]
-    * Ashesh Jain, Amir R. Zamir, Silvio Savarese, Ashutosh Saxena3
+    * Ashesh Jain, Amir R. Zamir, Silvio Savarese, Ashutosh Saxena | CVPR 2015
