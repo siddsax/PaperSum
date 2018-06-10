@@ -22,3 +22,6 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 for structured representations and fast inference** [[paper](https://arxiv.org/pdf/1603.06277.pdf)][[summary](https://github.com/siddsax/PaperSum/edit/master/Summaries/SVAE.md)]
    * MJ Johnson, David Duvenaud, A Wiltschko, Sandeep Datta, Ryan P. Adams
 
+2015
+* **Structural-RNN: Deep Learning on Spatio-Temporal Graphs** [[paper](https://cs.stanford.edu/people/asaxena/papers/structural-rnn-cvpr16-jain-saxena.pdf)][[summary](https://github.com/siddsax/PaperSum/new/master/Summaries/srnn.md)]
+    * Ashesh Jain, Amir R. Zamir, Silvio Savarese, Ashutosh Saxena3
