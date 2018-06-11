@@ -26,4 +26,12 @@ The authors propose **Structued RNNs** that can model spatio-temoral graphs.
     * Spatial EdgeRNN: Represent the spatial edges in graph.
     * NodeRNN: They model the nodes/vertices in the graphs.
 * The edges among them are defined as:
-    * 
+    * Temporal EdgeRNN has only one edge, to its corresponding NodeRNN.
+    * Spatial EdgeRNN can have one or two edges depending if its connecting semantically similar nodes or not respectively.
+    * There is no edge among EdgeRNNs and among NodeRNNs themselves. Hence this creates a bi-partite graph.
+
+* This defines the over-arching model as described in the paper. Though another important aspect is the input and output of these component RNNs. Explaining this with the example of human motion forecasting as in Fig 5. Each node is a body part at time step *t*. The model is fed the node positions at time steps 1, 2, ... *t*, the model has to predict the position at time step *t+1*. Note as each constitutent is an RNN, the model involves similar unfolding.
+    * NodeRNN is fed the *concatenation* of all the outputs of its connected EgdeRNNs (both temporal and spatial) and the node feature ( i.e. position of that body part) at that time step.
+    * Both EdgeRNNs are fed the summation of the features, f_{o1o2} of the nodes that are in the same semantic groups. Further, these features f_{o1o2} for each constituent of the semantic group are defined as follows.
+         * For Temporal Edges they are concatenation of that body part's co-ordinates at that point and the difference between the co-ordinates at that time step and previous time step. 
+         * For Spatial Edges, its just the concatenation of both body part's co-ordinates.
