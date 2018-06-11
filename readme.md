@@ -7,7 +7,7 @@ Welcome to my paper summary blog! These are some of the papers that I found real
    * Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, Justin M. Solomon | Arxiv 2018
 
 * **Noise2Noise: Learning Image Restoration without Clean Data** [[paper](https://arxiv.org/pdf/1803.04189.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/N2N.md)]
-   * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | Arxiv 2018
+   * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | ICML 2018
 
 
 2017
