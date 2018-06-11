@@ -9,6 +9,8 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 * **Noise2Noise: Learning Image Restoration without Clean Data** [[paper](https://arxiv.org/pdf/1803.04189.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/N2N.md)]
    * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | ICML 2018
 
+* **Hierarchical Long-term Video Prediction without Supervision** [[paper](https://arxiv.org/pdf/1806.04768.pdf)] [[TO DO]()]
+   * Nevan Wichers, Ruben Villegas, Dumitru Erhan, Honglak Lee
 
 2017
 * **Multi-Scale Dense Networks for Resource Efficient Image Classification** [[paper](https://arxiv.org/abs/1703.09844)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/MSDNet.md)]
@@ -20,10 +22,19 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 * **Emergent translation in multi-agent communication** [[paper](https://arxiv.org/pdf/1710.06922.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/etmac.md)]
     * J. Lee, K. Cho, J. Weston and D. Kiela | ICLR 2018
 
+* **Deep Neural Networks as Gaussian Process** [[Paper](https://arxiv.org/pdf/1711.00165.pdf)] [[TO DO]()]
+    * Jaehoon Lee, Yasaman Bahri, Roman Novak, Samuel S. Schoenholz, Jeffrey Pennington, Jascha Sohl-Dickstein | ICLR 2018
+
+* **Learning Deep Latent Gaussian Models with Markov Chain Monte Carlo** [[Paper](http://proceedings.mlr.press/v70/hoffman17a.html)] [[TO DO]()]
+    * MD Hoffman
+
 2016
 * **Composing graphical models with neural networks
 for structured representations and fast inference** [[paper](https://arxiv.org/pdf/1603.06277.pdf)][[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/SVAE.md)]
    * MJ Johnson, David Duvenaud, A Wiltschko, Sandeep Datta, Ryan P. Adams
+
+* **Low-shot visual recognition by shrinking and hallucinating features** [[Paper](https://arxiv.org/pdf/1606.02819.pdf)] [[TO DO]()]
+   * Bharath Hariharan and Ross Girshick | ICCV 2017
 
 2015
 * **Structural-RNN: Deep Learning on Spatio-Temporal Graphs** [[paper](https://cs.stanford.edu/people/asaxena/papers/structural-rnn-cvpr16-jain-saxena.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/srnn.md)]
