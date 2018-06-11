@@ -6,7 +6,7 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 * **Dynamic Graph CNN for Learning on Point Clouds** [[paper](https://arxiv.org/abs/1801.07829)][[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/dgcnn.md)]
    * Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, Justin M. Solomon | Arxiv 2018
 
-* **Noise2Noise: Learning Image Restoration without Clean Data** [[paper](https://arxiv.org/pdf/1803.04189.pdf)] [[summary](https://github.com/siddsax/PaperSum/edit/master/Summaries/N2N.md)]
+* **Noise2Noise: Learning Image Restoration without Clean Data** [[paper](https://arxiv.org/pdf/1803.04189.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/N2N.md)]
    * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | Arxiv 2018
 
 
@@ -19,7 +19,7 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 
 2016
 * **Composing graphical models with neural networks
-for structured representations and fast inference** [[paper](https://arxiv.org/pdf/1603.06277.pdf)][[summary](https://github.com/siddsax/PaperSum/edit/master/Summaries/SVAE.md)]
+for structured representations and fast inference** [[paper](https://arxiv.org/pdf/1603.06277.pdf)][[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/SVAE.md)]
    * MJ Johnson, David Duvenaud, A Wiltschko, Sandeep Datta, Ryan P. Adams
 
 2015
