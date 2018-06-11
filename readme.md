@@ -1,4 +1,4 @@
-# Paper summary blog
+# ML Research-Paper Summary Blog
 
 Welcome to my paper summary blog! These are some of the papers that I found really interesting but not a summary explaining them around, so I wrote one. If you find any issue with points that I made, feel free to reach out to me or send a pull request.
 
