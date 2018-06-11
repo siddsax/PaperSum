@@ -4,7 +4,7 @@
 
 * Authors: J. Lee, K. Cho, J. Weston and D. Kiela
 * Link: [Arxiv](https://arxiv.org/pdf/1710.06922.pdf)
-* Tags: Neural Machine Translation, 
+* Tags: Neural Machine Translation, Image Captioning, Unsupervised Learning
 * Year: 2017
 * Conference: ICLR 2018
 * Implementation: [Official in PyTorch](https://github.com/facebookresearch/translagent)
