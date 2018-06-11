@@ -1,6 +1,6 @@
-# Paper summay blog
+# Paper summary blog
 
-Welcome to my paper summary blog! These are some of the papers that I found really interesting and not a summary around. If you find any issue with points that I made, feel free to reach out to me or send a pull request.
+Welcome to my paper summary blog! These are some of the papers that I found really interesting but not a summary explaining them around, so I wrote one. If you find any issue with points that I made, feel free to reach out to me or send a pull request.
 
 2018
 * **Dynamic Graph CNN for Learning on Point Clouds** [[paper](https://arxiv.org/abs/1801.07829)][[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/dgcnn.md)]
