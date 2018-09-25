@@ -4,7 +4,7 @@
 
 * Authors: Nevan Wichers, Ruben Villegas, Dumitru Erhan, Honglak Lee
 * Link: [Arxiv](https://arxiv.org/pdf/1806.04768.pdf)
-* Tags: Video Prediction, Adverserial Learning
+* Tags: Video Prediction, Adversarial Learning
 * Year: 2018
 * Conference: ICML 2018
 * Implementation: [Official in TensorFlow](https://github.com/brain-research/long-term-video-prediction-without-supervision)
@@ -13,29 +13,28 @@
 
 ### Problem 
 
-The paper looks at the problem of predicting long term future image frames given some starting frames, without using ground truth
-skeletal features i.e. joints coordinates.
+The paper looks at the problem of predicting long-term image frames in videos given some starting frames, without using ground truth
+skeletal features eg. joints coordinates.
 
 ## How it is solved?
 
-* The paper tackles the problem by doing prediction of video frames at in high level feature spacesimilar to [1]. The difference
-here is that there is no direct supervision in learning these features opposed to [2] where ground truth Mo-Cap features are
+* The paper tackles the problem by doing prediction of video frames in high-level feature space similar to [1]. The difference
+here is that there is no direct supervision in learning these features opposed to [1] where ground truth Mo-Cap features are
 needed.
-* The model is composes of multple networks as follows ( See Fig 1 in paper ):
-    * Image Encoder: This is a CNN that encodes the frame at time step *t* to the high level feature **(HL-F)** space. It is only used till time
-step *C* i.e. the point till when we have ground truth image frames and after which prediction starts.
-    * Predictior LSTM: Eq (1). This is the main predictor of the model. It takes as input the hidden layer of the LSTM 
-and HL-F at the previous time step. The output is the HL-F at the next time. The input HL-F here comes from the Image encoder
-till step *C* and after that is taken from the output of the LSTM at previous time step only. 
-    * VAN: The VAN is in turn compised of several networks. It takes as input the predicted HL-F, say at time step *t* 
-from the LSTM and then using the image and HL-F from the *first* image frame generates the image frame at the time step *t*.
-The main idea is that it takes the HL-F at a time step *t* and then using the analogy from the first image of how HL-F
-and the image are related, procudes the image at that time step. The details of these networks are in Eq 2 and its subsequent paragraph.
-   * Finally a gating mechanism is used so that  frames that are not changing /predicted to change can directly be copied from the input image in Eq 3. The output from this is the final predicted image.
+* The model is composed of multiple networks as follows ( See Fig 1 in the paper ):
+    * Image Encoder: This is a CNN that encodes the frame at time step *t* to the high-level feature (**HL-F**) space. It is only used till time
+step *C* i.e. the time step up to which we have ground truth image frames and prediction starts after it.
+    * Predictor LSTM: Eq (1). This is the main predictor of the model. It takes as input the hidden layer of itself (<a href="https://www.codecogs.com/eqnedit.php?latex=H_{t-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{t-1}" title="H_{t-1}" /></a>) and HL-F ( <a href="https://www.codecogs.com/eqnedit.php?latex=e_{t-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e_{t-1}" title="e_{t-1}" /></a>) at the previous time step. The output is the HL-F at the next time. The input HL-F (<a href="https://www.codecogs.com/eqnedit.php?latex=e_{t-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e_{t-1}" title="e_{t-1}" /></a>) here comes from the Image encoder
+till step *C* and after that is taken from the output of the LSTM at previous time step. 
+    * VAN: The VAN is in turn comprised of several networks. It takes as input the predicted HL-F, say at time step *t* 
+from the LSTM and then using the *first* image and its HL-F, the VAN generates the predicted image frame at that time step.
+The main idea is that it takes the HL-F at time step *t* and then using the analogy from the first image of how it is related to its HL-F, produces the image at that time step. The details of these networks are in Eq 2 and it's subsequent paragraph.
+   * Finally a gating mechanism is used so that frames that are not predicted to change can directly be copied from the input image in Eq 3. The output from this is the final predicted image.
 
-
-
-
+* **End2End Training** One way to train the model, is to use an L2 loss over the generated images and train the whole network
+end to end. Although this leads to blurry predicted images which is a known property of the L2 loss.
+* **Encoder predictor loss ** (EPVA): In EPVA, the authors propose the use of an additional loss term that minimizes the difference between features predicted by the LSTM at time step *t* with the features coming from the image encoder encoding the ground truth images at that time step.
+* **Adversarial loss in predictor**: The authors propose the use of a Wasserstein Loss along with the L2 loss to mitigate the blurriness in predictions. They use an LSTM discriminator that unfolds over the encodings to detect whether they are from the image encoder or LSTM predictor. They additionally use a discriminator loss discriminating between two possible outputs of VAN a) when it's given the HL-F generated by image encoder vs b) HL-F generated by the LSTM predictor. This part is briefly mentioned in the last paragraph of 4.2.3
 
 [1] Learning to generate long-term future via hierarchical prediction
 
