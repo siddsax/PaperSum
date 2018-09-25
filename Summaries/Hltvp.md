@@ -31,6 +31,7 @@ till step *C* and after that is taken from the output of the LSTM at previous ti
 from the LSTM and then using the image and HL-F from the *first* image frame generates the image frame at the time step *t*.
 The main idea is that it takes the HL-F at a time step *t* and then using the analogy from the first image of how HL-F
 and the image are related, procudes the image at that time step. The details of these networks are in Eq 2 and its subsequent paragraph.
+   * Finally a gating mechanism is used so that  frames that are not changing /predicted to change can directly be copied from the input image in Eq 3. The output from this is the final predicted image.
 
 
 
