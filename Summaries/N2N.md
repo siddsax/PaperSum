@@ -22,8 +22,10 @@ Can we learn to denoise images with noisy images only?
     * *Case I* The traditional case. Say the dataset has 100 clean images and 19 noisy ones for each. Now we have 100 * (19+1) * 1 training pairs ( input = noisy or clean; output = clean ).
     * *Case II* Here the model is trained with target also being possibly noisy. Hence we have 100 * (19+1) * (19) choices. This is because, same image can't be both input and output. 
     * *Case III* Noise2Noise case. Here the input and output both are noisy images only while having only 2 noisy images for each image and 1000 image samples. This means there are 1000* 2 training samples.
+    
+* Hence in effect, in cases II and III, training for one image is done, by using multiple noisy samples of that scene. For example if one brain's MRI scans were to be used for training the model, several MRI scan images will be taken corresponding to the same brain at the same position. As the noise here is random, it will be different always which makes it impossible for the model to learn the noise itself. The only constant thing being the denoised image MRI scan hence in this way a model can be trained to denoise the image even without the used of clean samples.
 
-* They report that Case III performs the best, then case II and then case I. The reason is that, in case 3 there are more real images on the same budget of 2000 images. While case 2 has much more training samples than any of them. 
+* Coming back to the 3 cases  as described above, the authors report that Case III which is the noise2noise scenario performs the best, then case II, case I at 3rd. The reason is that, in case 3 there are more real images on the same budget of 2000 images. While case 2 has much more training samples than any of them. 
 
 They then go on to experiment with different noise types showing that it is possible to denoise images with only noisy samples. 
 
