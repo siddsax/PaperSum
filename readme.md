@@ -9,7 +9,7 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 * **Noise2Noise: Learning Image Restoration without Clean Data** [[paper](https://arxiv.org/pdf/1803.04189.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/N2N.md)]
    * Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras, Miika Aittala, Timo Aila | ICML 2018
 
-* **Hierarchical Long-term Video Prediction without Supervision** [[paper](https://arxiv.org/pdf/1806.04768.pdf)] [[Summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/Hltvp.md)]
+* **Hierarchical Long-term Video Prediction without Supervision** [[paper](https://arxiv.org/pdf/1806.04768.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/Hltvp.md)]
    * Nevan Wichers, Ruben Villegas, Dumitru Erhan, Honglak Lee
 
 2017
@@ -22,7 +22,7 @@ Welcome to my paper summary blog! These are some of the papers that I found real
 * **Emergent translation in multi-agent communication** [[paper](https://arxiv.org/pdf/1710.06922.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/etmac.md)]
     * J. Lee, K. Cho, J. Weston and D. Kiela | ICLR 2018
 
-* **Deep Neural Networks as Gaussian Process** [[Paper](https://arxiv.org/pdf/1711.00165.pdf)] [[TO DO]()]
+* **Deep Neural Networks as Gaussian Process** [[Paper](https://arxiv.org/pdf/1711.00165.pdf)] [[summary](https://github.com/siddsax/PaperSum/blob/master/Summaries/dnngp.md)]
     * Jaehoon Lee, Yasaman Bahri, Roman Novak, Samuel S. Schoenholz, Jeffrey Pennington, Jascha Sohl-Dickstein | ICLR 2018
 
 * **Learning Deep Latent Gaussian Models with Markov Chain Monte Carlo** [[Paper](http://proceedings.mlr.press/v70/hoffman17a.html)] [[TO DO]()]
